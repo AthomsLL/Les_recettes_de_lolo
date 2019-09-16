@@ -1,0 +1,4 @@
+AuthName "Zone Admin protégée"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\Les Recettes de Lolo - Version PHP/admin/.htpasswd
+Require valid-user

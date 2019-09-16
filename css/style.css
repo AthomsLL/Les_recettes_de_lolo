@@ -1,0 +1,410 @@
+/* FONTS 
+
+font-family: 'Great Vibes', sans-serif;
+font-family: 'Playball', sans-serif;
+font-family: 'Shrikhand', sans-serif;
+
+*/
+
+/* COLORS
+
+Orange : #f9ae09;
+Noir : #000;
+Blanc : #fff;
+
+*/
+
+@charset "UTF-8";
+
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: #f9ae09;
+    opacity: 0.99;
+    min-height: 937px;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-xs-12 {
+    max-width: 380px;
+}
+
+h1, h2, h5, h6 {
+    font-weight: bold;
+}
+
+section {
+    padding: 25px 0 40px 0;
+}
+
+.site {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.navbar-default {
+    border: none;
+    background-color: transparent;
+}
+
+/* MENU */
+.header-menu {
+    height: 50px;
+    background-color: #f9ae09;
+    border-color: transparent;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.header-btn {
+    border-style: none;
+}
+
+.icon-bar {
+    background-color: #fff !important;
+}
+
+.header-navbar-collapse {
+    text-align: center;
+}
+
+.header-navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    
+/* "float: none" et "display: inline-block" permettent de notifier "text-align: center" sur le .navbar-collapse */
+}
+
+.header-menu-item {
+    color: #000 !important;
+    font-family: 'Playball', sans-serif;
+    margin: 0 10px;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-menu-item:hover, li.active .header-menu-item {
+    background-color: #fff !important;
+    color: #f9ae09 !important;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+}
+
+/* BANNIERE INDEX.PHP */
+.banner {
+    position: relative;
+    height: 650px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background: url(../images/main-image2.jpg) center center no-repeat;
+}
+
+.banner-inner-banner {
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-title {
+    font-family: 'Great Vibes', sans-serif;
+    color: #f9ae09;
+    font-size: 125px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/* SECTIONS INDEX.PHP */
+.orange-background {
+    background-color: #f9ae09;
+}
+
+.orange-divider {
+    width: 100px;
+    height: 2px;
+    background: #f9ae09;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.black-divider {
+    width: 100px;
+    height: 2px;
+    background: #000000;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.heading-title {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'Playball', sans-serif;
+}
+
+.white-background .heading-title {
+    color: #f9ae09;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.orange-background .heading-title {
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.thumbnail {
+    width: 350px;
+    border-radius: 10px;
+    height: 330px;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.thumbnail img {
+    border-radius: 10px 10px 0px 0px;
+    height: 70%;
+    width: 100%;
+}
+
+article {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.caption-title {
+    border-bottom: 1px solid #ddd;
+    /*padding-top: 20px;*/
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.caption-btn {
+    margin-top: 7px;
+    font-family: 'Playball', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9ae09;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.caption-btn:hover {
+    background-color: #f9ae09;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+/* RECETTE.PHP */
+.header-recette-collapse {
+    text-align: center;
+}
+
+.header-recette-collapse a {
+    text-decoration: none;
+}
+
+.recette {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    background-color: #fff !important;
+}
+
+.recette-max-width {
+    width: 550px;
+}
+
+.recette-header {
+    width: 100%;
+    height: 200px;
+}
+
+.recette-header-image {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.recette-header-image img {
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.recette-header-title {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 45px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    margin: 0;
+    width: 100%;
+}
+
+.recette-fond-image {
+    background: url(../images/image-modal.jpg);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.recette-body-infos {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.recette-black-divider {
+    width: 350px;
+    height: 1px;
+    background: #000000;
+    margin: 0 auto;
+}
+
+.recette-body h5 {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.recette-body-ingredients, .recette-body-preparation {
+    margin: auto;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.recette-body-ingredients {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.recette-body-preparation {
+    width: 75%;
+    list-style-position: outside;
+}
+
+.recette-footer {
+    height: 50px;
+}
+
+.recette-footer-btn {
+    display: block;
+    margin: 13px auto 0px auto;
+}
+
+/* PARTIE ADMIN */
+.vueaccueil, .vuerecette, .titre {
+    font-family: 'Shrikhand', sans-serif;
+    text-decoration: underline;
+}
+
+.vueaccueil, .vuerecette {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.admin {
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.help-inline {
+    color: red;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) 
+{
+    .container
+    {
+        max-width: 380px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 855px)
+{
+    .header-menu-item
+    {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 876px)
+{
+    .banner 
+    {
+        height: 600px !important;
+    }
+    
+    .banner-title
+    {
+        font-size: 95px !important;
+    }
+}
+
+@media screen and (min-width: 856px) and (max-width: 942px)
+{       
+    .header-menu-item
+    {
+        font-size: 20px !important;
+    }
+}

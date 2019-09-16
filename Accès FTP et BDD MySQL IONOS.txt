@@ -1,0 +1,15 @@
+Accès FTP : 
+
+Serveur : access786122830.webspace-data.io
+Utilisateur : u97528996
+Mot de passe : Lilou26102016!
+Port : 22
+
+
+Accès BDD MySQL (config database.php) : 
+
+Base de données : dbs164398
+Hôte : db5000169411.hosting-data.io
+Utilisateur : dbu338129
+Mot de passe : Lilou26102016!
+Port : 3306

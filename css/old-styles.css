@@ -1,0 +1,330 @@
+/* FONTS 
+
+font-family: 'Great Vibes', sans-serif;
+font-family: 'Playball', sans-serif;
+font-family: 'Shrikhand', sans-serif;
+
+*/
+
+/* COLORS
+
+Orange : #f9ae09;
+Noir : #000;
+Blanc : #fff;
+
+*/
+
+@charset "UTF-8";
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) 
+{
+    .container
+    {
+        max-width: 380px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 855px)
+{
+    .header-menu-item
+    {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 876px)
+{
+    .banner 
+    {
+        height: 600px !important;
+    }
+    
+    .banner-title
+    {
+        font-size: 95px !important;
+    }
+}
+
+@media screen and (min-width: 856px) and (max-width: 942px)
+{       
+    .header-menu-item
+    {
+        font-size: 20px !important;
+    }
+}
+
+/* GENERAL */
+
+body, html
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: bold;
+}
+
+h4 
+{
+    padding-top: 30px;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 45px;
+}
+
+h5
+{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 35px;
+}
+
+section 
+{
+    padding: 45px 0 80px 0;
+}
+
+section .heading 
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section .heading h2 
+{
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #f9ae09;
+    font-family: 'Playball', sans-serif;
+}
+
+#Aperitifs h2, #Plats h2
+{
+    text-shadow: 1px 1px 1px #000;
+}
+
+#Entrees h2, #Desserts h2
+{
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.orange-divider 
+{
+    width: 100px;
+    height: 2px;
+    background: #f9ae09;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.black-divider 
+{
+    width: 100px;
+    height: 2px;
+    background: #000000;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.recette-black-divider
+{
+    width: 350px;
+    height: 1px;
+    background: #000000;
+    margin: 0 auto;
+}
+
+.row 
+{
+    margin: 0;
+}
+
+.thumbnail
+{
+    border-radius: 10px;
+    height: 330px;
+    text-align: center;
+    padding: 0;
+    border: none;
+}
+
+.thumbnail img
+{
+    border-radius: 10px 10px 0px 0px;
+    height: 70%;
+    width: 100%;
+}
+
+article 
+{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.caption-title 
+{
+    border-bottom: 1px solid #ddd;
+    /*padding-top: 20px;*/
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.caption-btn
+{
+    margin-top: 7px;
+    font-family: 'Playball', sans-serif;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #f9ae09 !important;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.caption-btn:hover
+{
+    background-color: #f9ae09 !important;
+    color: #000 !important;
+    text-shadow: 1px 1px 1px #fff !important;
+}
+
+.col-xs-12 
+{
+    max-width: 380px;
+}
+
+/* MENU */
+
+.header-menu
+{
+    background-color: #f9ae09;
+    border-color: transparent;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.header-navbar-nav 
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    
+/* "float: none" et "display: inline-block" permettent de notifier "text-align: center" sur le .navbar-collapse */
+}
+
+.header-menu-item
+{
+    color: #000;
+    font-family: 'Playball', sans-serif;
+    margin: 0 10px;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.header-menu-item:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.header-navbar-collapse 
+{
+    text-align: center;
+}
+
+.header-btn
+{
+    border-style: none;
+}
+
+.icon-bar 
+{
+    background-color: #fff !important;
+}
+
+/* BANNIERE */
+
+.banner 
+{
+    height: 650px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.banner-img 
+{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.banner-img img
+{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.banner-inner-banner
+{
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-title 
+{
+    font-family: 'Great Vibes', sans-serif;
+    color: #f9ae09;
+    font-size: 125px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/* APERITIFS */
+
+
+
+/* ENTREES */
+
+#Entrees 
+{
+    background-color: #f9ae09;
+}
+
+#Entrees .heading h2
+{
+    color: #000;
+}
+
+/* PLATS */
+
+/* DESSERTS */
+
+#Desserts
+{
+    background-color: #f9ae09;
+}
+
+#Desserts .heading h2
+{
+    color: #000;
+}
+
+/* FOOTER */
+
